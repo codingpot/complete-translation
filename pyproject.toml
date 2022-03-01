@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "complete-translation"
+version = "0.1.0"
+description = "translation interface with google docs"
+authors = ["Chansung Park <deep.diver.csp@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+google-api-python-client = "^2.39.0"
+google-auth-httplib2 = "^0.1.0"
+google-auth-oauthlib = "^0.5.0"
+google-cloud-storage = "^2.1.0"
+google-cloud-translate = "^3.7.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
